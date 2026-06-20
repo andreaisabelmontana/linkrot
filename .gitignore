@@ -1,0 +1,5 @@
+/linkrot
+/linkrot.exe
+*.out
+*.test
+dist/
