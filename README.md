@@ -4,9 +4,7 @@
 ![license: MIT](https://img.shields.io/badge/license-MIT-blue)
 ![go](https://img.shields.io/badge/go-1.26-00ADD8)
 
-A fast, concurrent broken-link checker. Point it at a site; it crawls the same-host pages, gathers every link and asset they reference, checks them all in parallel, and reports what's broken — and *which page* points at it.
-
-Built to keep static sites honest: link rot creeps in silently as pages move and external sites disappear. `linkrot` turns "are any of my links dead?" into a one-line command (and a CI gate).
+A fast, concurrent broken-link checker. Point it at a site; it crawls the same-host pages, gathers every link and asset they reference, checks them all in parallel, and reports what's broken — and *which page* points at it. Works as a one-line command or a CI gate.
 
 ## Install
 
